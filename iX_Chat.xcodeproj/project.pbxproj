@@ -13,7 +13,7 @@
 		A003D6791F1E3D230011B3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003D6771F1E3D230011B3C4 /* Main.storyboard */; };
 		A003D67B1F1E3D230011B3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A003D67A1F1E3D230011B3C4 /* Assets.xcassets */; };
 		A003D67E1F1E3D230011B3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003D67C1F1E3D230011B3C4 /* LaunchScreen.storyboard */; };
-		A003D6881F1E409A0011B3C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A003D6871F1E409A0011B3C4 /* GoogleService-Info.plist */; };
+		A003D68A1F1E43A30011B3C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A003D6891F1E43A30011B3C4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		A003D67A1F1E3D230011B3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A003D67D1F1E3D230011B3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A003D67F1F1E3D230011B3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A003D6871F1E409A0011B3C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A003D6891F1E43A30011B3C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				A003D67A1F1E3D230011B3C4 /* Assets.xcassets */,
 				A003D67C1F1E3D230011B3C4 /* LaunchScreen.storyboard */,
 				A003D67F1F1E3D230011B3C4 /* Info.plist */,
-				A003D6871F1E409A0011B3C4 /* GoogleService-Info.plist */,
+				A003D6891F1E43A30011B3C4 /* GoogleService-Info.plist */,
 			);
 			path = iX_Chat;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A003D67E1F1E3D230011B3C4 /* LaunchScreen.storyboard in Resources */,
-				A003D6881F1E409A0011B3C4 /* GoogleService-Info.plist in Resources */,
+				A003D68A1F1E43A30011B3C4 /* GoogleService-Info.plist in Resources */,
 				A003D67B1F1E3D230011B3C4 /* Assets.xcassets in Resources */,
 				A003D6791F1E3D230011B3C4 /* Main.storyboard in Resources */,
 			);
