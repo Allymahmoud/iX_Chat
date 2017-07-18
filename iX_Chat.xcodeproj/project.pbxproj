@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870443C1E252021D62DB12DE /* Pods_iX_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DBA3F1D0F885C9EE2B53FA /* Pods_iX_Chat.framework */; };
 		A003D6741F1E3D230011B3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003D6731F1E3D230011B3C4 /* AppDelegate.swift */; };
 		A003D6761F1E3D230011B3C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003D6751F1E3D230011B3C4 /* ViewController.swift */; };
 		A003D6791F1E3D230011B3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003D6771F1E3D230011B3C4 /* Main.storyboard */; };
 		A003D67B1F1E3D230011B3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A003D67A1F1E3D230011B3C4 /* Assets.xcassets */; };
 		A003D67E1F1E3D230011B3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003D67C1F1E3D230011B3C4 /* LaunchScreen.storyboard */; };
+		A003D6881F1E409A0011B3C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A003D6871F1E409A0011B3C4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0981F1D6A8AA3B3799F6AB34 /* Pods-iX_Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iX_Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat.release.xcconfig"; sourceTree = "<group>"; };
+		6FB8542753A3DD2C8E2B8D73 /* Pods-iX_Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iX_Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		97DBA3F1D0F885C9EE2B53FA /* Pods_iX_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iX_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A003D6701F1E3D230011B3C4 /* iX_Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iX_Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A003D6731F1E3D230011B3C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A003D6751F1E3D230011B3C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		A003D67A1F1E3D230011B3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A003D67D1F1E3D230011B3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A003D67F1F1E3D230011B3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A003D6871F1E409A0011B3C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870443C1E252021D62DB12DE /* Pods_iX_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C3D3959C34D061A8FD123F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB8542753A3DD2C8E2B8D73 /* Pods-iX_Chat.debug.xcconfig */,
+				0981F1D6A8AA3B3799F6AB34 /* Pods-iX_Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C166A6721B70301B74587EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97DBA3F1D0F885C9EE2B53FA /* Pods_iX_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A003D6671F1E3D230011B3C4 = {
 			isa = PBXGroup;
 			children = (
 				A003D6721F1E3D230011B3C4 /* iX_Chat */,
 				A003D6711F1E3D230011B3C4 /* Products */,
+				6C3D3959C34D061A8FD123F1 /* Pods */,
+				9C166A6721B70301B74587EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				A003D67A1F1E3D230011B3C4 /* Assets.xcassets */,
 				A003D67C1F1E3D230011B3C4 /* LaunchScreen.storyboard */,
 				A003D67F1F1E3D230011B3C4 /* Info.plist */,
+				A003D6871F1E409A0011B3C4 /* GoogleService-Info.plist */,
 			);
 			path = iX_Chat;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A003D6821F1E3D230011B3C4 /* Build configuration list for PBXNativeTarget "iX_Chat" */;
 			buildPhases = (
+				7D0F581316AD65B1980A9B41 /* [CP] Check Pods Manifest.lock */,
 				A003D66C1F1E3D230011B3C4 /* Sources */,
 				A003D66D1F1E3D230011B3C4 /* Frameworks */,
 				A003D66E1F1E3D230011B3C4 /* Resources */,
+				3C1BC5AFB397D39B2DED18C1 /* [CP] Embed Pods Frameworks */,
+				A388EA06C049222D8632D35B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				A003D67E1F1E3D230011B3C4 /* LaunchScreen.storyboard in Resources */,
+				A003D6881F1E409A0011B3C4 /* GoogleService-Info.plist in Resources */,
 				A003D67B1F1E3D230011B3C4 /* Assets.xcassets in Resources */,
 				A003D6791F1E3D230011B3C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C1BC5AFB397D39B2DED18C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0F581316AD65B1980A9B41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A388EA06C049222D8632D35B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iX_Chat/Pods-iX_Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A003D66C1F1E3D230011B3C4 /* Sources */ = {
@@ -261,6 +340,7 @@
 		};
 		A003D6831F1E3D230011B3C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB8542753A3DD2C8E2B8D73 /* Pods-iX_Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FM2EY39XWE;
@@ -274,6 +354,7 @@
 		};
 		A003D6841F1E3D230011B3C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0981F1D6A8AA3B3799F6AB34 /* Pods-iX_Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FM2EY39XWE;
@@ -304,6 +385,7 @@
 				A003D6841F1E3D230011B3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
